@@ -144,29 +144,30 @@ npm run frontend
 
 ## 🔄 User Flow
 
+## 📊 Application Flow
+
 ```mermaid
-[Visit App]
-     │
-     ▼
-[Sign Up / Log In]
-     │  JWT stored in AuthContext
-     ▼
-[Dashboard]  ──── overview of subjects, pending tasks, recent activity
-     │
-     ├──► [Subjects Page]
-     │         Add a subject → give it a name & colour
-     │         Delete a subject (cascades to tasks)
-     │
-     ├──► [Tasks Page]
-     │         Add a task → title, deadline, priority, linked subject
-     │         Toggle task status: pending ↔ completed
-     │         Filter / sort by priority or deadline
-     │
-     ├──► [Calendar Page]
-     │         See tasks plotted on a monthly calendar by deadline
-     │
-     └──► [Log Out]
-               Clears auth state → redirected to /login
+flowchart TD
+
+A[Visit App] --> B[Sign Up / Log In]
+B --> C[JWT stored in AuthContext]
+C --> D[Dashboard<br/>Overview of subjects, pending tasks, recent activity]
+
+D --> E[Subjects Page]
+E --> E1[Add Subject<br/>Name & Colour]
+E --> E2[Delete Subject<br/>Cascades to tasks]
+
+D --> F[Tasks Page]
+F --> F1[Add Task<br/>Title, Deadline, Priority, Subject]
+F --> F2[Toggle Status<br/>Pending ↔ Completed]
+F --> F3[Filter/Sort<br/>By Priority or Deadline]
+
+D --> G[Calendar Page]
+G --> G1[View Tasks<br/>Monthly Calendar by Deadline]
+
+D --> H[Log Out]
+H --> H1[Clear Auth State]
+H1 --> H2[Redirect to Login Page]
 ```
 
 ---
