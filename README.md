@@ -144,7 +144,7 @@ npm run frontend
 
 ## 🔄 User Flow
 
-```
+```mermaid
 [Visit App]
      │
      ▼
