@@ -193,4 +193,4 @@ All user data is isolated by `user_id`. Deleting a user cascades through all rel
 
 ---
 
-> 📌 *This project was built as a mini full-stack project to demonstrate React, Express, and MySQL integration with JWT authentication.*
+> 📌 *This project was built as a mini full-stack project to demonstrate React, Express, and MySQL integration with JWT authentication.**
