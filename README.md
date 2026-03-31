@@ -185,7 +185,7 @@ All user data is isolated by `user_id`. Deleting a user cascades through all rel
 
 ---
 
-## 👨‍💻 Contributor
+## 👨‍💻 _______Contributor___________
 
 | Name | GitHub |
 |------|--------|
