@@ -6,7 +6,7 @@
 
 ######### 📖 Description 📖 ##########
 
-**Study Planner** (branded as *StudyFlow* in-app) is a full-stack web application that helps students organise their academic life. Users can create and colour-code subjects, manage tasks with priorities and deadlines, and log study sessions — all behind a secure login system.
+**Study Planner** (branded as *StudyFlow* in-app) is a full-stack web application that helps students to organise their academic life and make it easy for the student for better time management. Users can create and colour-code subjects, manage tasks with priorities and deadlines, and log study sessions — all behind a secure login system.
 
 The stack is:
 - **Frontend** — React + Vite + Tailwind CSS
